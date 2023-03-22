@@ -8,5 +8,11 @@ In the absence of spectrogram templates from real observations, we created simul
 ## 2) Injecting the burst 
 The burst feature is parameterized by its fluence, dispersion measure, width, scattering timescale ranges (check simconfig.py). The spectral behaviour is regulated by a normalized gaussian profile across the frequency with the peak situated randomly at different frequency location. The final simulation could be saved in a pickle file.  
 
-## 3) Examples
+## 3) Running the script
+The simulation parameters could be modified in simconfig.py and the final simulation could be performed simply with **Python3 sim_events.py**
+
+## 4) Examples
 The figures below plot example of the simulated burts using telescope configurations similar to the Parkes radio telescope FRB search mode 
+Example 1                  |  Example 2
+:-------------------------:|:-------------------------:
+![](https://github.com/julioandrianjafy/FRB_simulation/blob/main/im0.png)  |  ![](https://github.com/julioandrianjafy/FRB_simulation/blob/main/im1.png)
